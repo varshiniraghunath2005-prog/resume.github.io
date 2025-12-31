@@ -1,0 +1,86 @@
+/* ===== Global Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* ===== Body ===== */
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    text-align: center;
+}
+
+/* ===== Header ===== */
+header {
+    background-color: #1e3c72;
+    background-image: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/* ===== Main Container ===== */
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* ===== Upload Box ===== */
+.upload-box {
+    border: 2px dashed #1e90ff;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f9fbff;
+}
+
+.upload-box input {
+    margin-top: 15px;
+}
+
+/* ===== Button ===== */
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f6bdc;
+}
+
+/* ===== Result Section ===== */
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    background: #eaf4ff;
+    border-left: 6px solid #1e90ff;
+    text-align: left;
+}
+
+/* ===== Footer ===== */
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #222;
+    color: #fff;
+}
